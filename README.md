@@ -12,6 +12,8 @@ InwBike będzie posiadał następujące funkcje:
 - Wyszukiwanie przedmiotów 
 - System logowania pracownika
 - Lista wybranych produktów (wish list/koszyk)
-- Wyszukiwanie za pośrednictwem kodów graficznych (Qr code/kod paskowy)
+- Kalkulator do obliczania wielkości ramy rowerowej
 - Wyświetlanie opisu produktów w osobnym oknie
-- Kalkulator do obliczania wielkości ramy rowerowej*
+- Wyszukiwanie za pośrednictwem kodów graficznych (Qr code/kod paskowy)*
+
+*dodatkowa funkcja jeśli, któraś z poprzednich nie spełni wymagań
