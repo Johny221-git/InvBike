@@ -25,10 +25,10 @@ Wstępne szkice ekranów aplikcaji:
 ![image](https://user-images.githubusercontent.com/72787337/226333565-8a09ddb8-90cf-4f21-b17e-f53268fa9eed.png)
 
   Ekran wyszukiwania:
-![image](https://user-images.githubusercontent.com/72787337/226334223-fe8db37c-bf7e-4d23-a14c-8d2372ab4e5b.png)
+![image](https://user-images.githubusercontent.com/72787337/226335700-5dd6e2d6-f899-445a-b339-ef458f84c47b.png)
 
   Ekran zapisanych produktów:
- ![image](https://user-images.githubusercontent.com/72787337/226334399-3726a072-05ad-438f-8073-89c078b6e514.png)
+![image](https://user-images.githubusercontent.com/72787337/226335790-b14022b3-6ba3-4235-bf01-d6655b070e86.png)
 
   Ekran kalkulatora ramy rowerowej:
- ![image](https://user-images.githubusercontent.com/72787337/226334497-273f8d8d-2985-4b36-b5de-e75e7f1a2133.png)
+![image](https://user-images.githubusercontent.com/72787337/226335874-4a0842f6-cea5-445f-ab95-2d76ae266580.png)
