@@ -14,7 +14,7 @@ InwBike będzie posiadał następujące funkcje:
 - Lista wybranych produktów (wish list/koszyk)
 - Kalkulator do obliczania wielkości ramy rowerowej
 - Wyświetlanie opisu produktów w osobnym oknie
-- Wyszukiwanie za pośrednictwem kodów graficznych (Qr code/kod paskowy)*
+- Obsługa ekranu dotykowego z użyciem gestów
 
 *dodatkowa funkcja jeśli, któraś z poprzednich nie spełni wymagań
 
