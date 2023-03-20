@@ -5,7 +5,7 @@ Students project for "Programowanie Obiektowe"
 Projekt stworzony na potrzeby kursu na Politechnice Wrocławskiej
 
 Cel projektu: 
-Stworzenie programu mobilnego do inwnetaryzacji sklepu rowerowego za pośrednictwem środowiska Android Studio (Java).
+Stworzenie programu mobilnego do inwnetaryzacji sklepu rowerowego za pośrednictwem środowiska Android Studio (Kotlin).
 W użyciu będzie również baza dantych sqlite.
 
 InwBike będzie posiadał następujące funkcje:
