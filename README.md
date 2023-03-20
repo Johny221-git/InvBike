@@ -17,3 +17,7 @@ InwBike będzie posiadał następujące funkcje:
 - Wyszukiwanie za pośrednictwem kodów graficznych (Qr code/kod paskowy)*
 
 *dodatkowa funkcja jeśli, któraś z poprzednich nie spełni wymagań
+
+
+Wstępne szkice ekranów aplikcaji:
+![image](https://user-images.githubusercontent.com/72787337/226333565-8a09ddb8-90cf-4f21-b17e-f53268fa9eed.png)
