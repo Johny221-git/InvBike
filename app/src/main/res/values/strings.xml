@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">InvBike</string>
+
+    <string name="button_login">LogIN</string>
+    <string name="text_login">User name</string>
+    <string name="button_help">Pomoc</string>
+    <string name="button_next">Next</string>
+
+    <string name="button_logout">Wyloguj</string>
+    <string name="button_look">Szukaj!</string>
+    <string name="button_fav">Zapisane produkty</string>
+    <string name="button_cal">Kalkulator ramy</string>
 </resources>
