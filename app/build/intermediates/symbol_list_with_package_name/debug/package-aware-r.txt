@@ -2613,10 +2613,16 @@ id bounceBoth
 id bounceEnd
 id bounceStart
 id button
+id button10
+id button11
+id button12
 id button2
 id button3
 id button5
 id button6
+id button7
+id button8
+id button9
 id buttonPanel
 id button_look
 id cache_measures
@@ -2696,6 +2702,11 @@ id easeIn
 id easeInOut
 id easeOut
 id east
+id editTextNumber2
+id editTextNumber3
+id editTextNumber4
+id editTextNumber5
+id editTextNumber6
 id editTextTextPassword
 id editTextTextPersonName
 id edit_query
@@ -2748,6 +2759,8 @@ id ignore
 id ignoreRequest
 id image
 id imageView
+id imageView2
+id imageView3
 id immediateStop
 id included
 id info
@@ -3118,6 +3131,8 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout ekran_wyszukiwania
+layout kalkulator_ramy
+layout koszytk_lista_zyczen
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title

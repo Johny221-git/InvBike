@@ -40,6 +40,10 @@
         "source": "C:\\Users\\JaHost\\Documents\\GitHub\\InvBike\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
+        "merged": "C:\\Users\\JaHost\\Documents\\GitHub\\InvBike\\app\\build\\intermediates\\merged_res\\debug\\layout_kalkulator_ramy.xml.flat",
+        "source": "C:\\Users\\JaHost\\Documents\\GitHub\\InvBike\\app\\src\\main\\res\\layout\\kalkulator_ramy.xml"
+    },
+    {
         "merged": "C:\\Users\\JaHost\\Documents\\GitHub\\InvBike\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\JaHost\\Documents\\GitHub\\InvBike\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
@@ -62,5 +66,9 @@
     {
         "merged": "C:\\Users\\JaHost\\Documents\\GitHub\\InvBike\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\JaHost\\Documents\\GitHub\\InvBike\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\JaHost\\Documents\\GitHub\\InvBike\\app\\build\\intermediates\\merged_res\\debug\\layout_koszytk_lista_zyczen.xml.flat",
+        "source": "C:\\Users\\JaHost\\Documents\\GitHub\\InvBike\\app\\src\\main\\res\\layout\\koszytk_lista_zyczen.xml"
     }
 ]
