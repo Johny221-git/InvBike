@@ -1,0 +1,2 @@
+com/example/invbike/BuildConfig.java
+ com.example.invbike.BuildConfig
