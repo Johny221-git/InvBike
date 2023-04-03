@@ -1,2 +1,10 @@
+com/example/invbike/databinding/EkranWyszukiwaniaBinding.java
+ com.example.invbike.databinding.EkranWyszukiwaniaBinding
+com/example/invbike/databinding/ActivityMainBinding.java
+ com.example.invbike.databinding.ActivityMainBinding
+com/example/invbike/databinding/KoszytkListaZyczenBinding.java
+ com.example.invbike.databinding.KoszytkListaZyczenBinding
+com/example/invbike/databinding/KalkulatorRamyBinding.java
+ com.example.invbike.databinding.KalkulatorRamyBinding
 com/example/invbike/BuildConfig.java
  com.example.invbike.BuildConfig
