@@ -1,4 +1,4 @@
-#Sun Apr 02 23:43:54 CEST 2023
+#Mon Apr 03 00:18:10 CEST 2023
 base.2=C\:\\Users\\JaHost\\Documents\\GitHub\\InvBike\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\14\\classes.dex
 path.2=14/classes.dex
 base.1=C\:\\Users\\JaHost\\Documents\\GitHub\\InvBike\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
