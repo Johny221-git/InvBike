@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\JaHost\\Documents\\GitHub\\InvBike\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v22\\values-v22.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\JaHost\\.gradle\\caches\\transforms-3\\8e2706a300bbec00002d22cf9bfadad6\\transformed\\appcompat-1.4.0\\res\\values-v22\\values-v22.xml",
+                    "source": "C:\\Users\\JaHost\\.gradle\\caches\\transforms-3\\0aca3018f1d5efa92024b97d85b62604\\transformed\\appcompat-1.4.0\\res\\values-v22\\values-v22.xml",
                     "from": {
                         "startLines": "2,3,4,9",
                         "startColumns": "4,4,4,4",

@@ -10,140 +10,75 @@
 9        android:targetSdkVersion="33" />
 9-->C:\Users\JaHost\Documents\GitHub\InvBike\app\src\main\AndroidManifest.xml
 10
-11    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
-12    <!-- <uses-sdk android:minSdkVersion="14"/> -->
-13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-13-->[com.google.firebase:firebase-database:20.2.0] C:\Users\JaHost\.gradle\caches\transforms-3\f517d7b42627a83b9a4c1dfc0e03e751\transformed\jetified-firebase-database-20.2.0\AndroidManifest.xml:24:5-79
-13-->[com.google.firebase:firebase-database:20.2.0] C:\Users\JaHost\.gradle\caches\transforms-3\f517d7b42627a83b9a4c1dfc0e03e751\transformed\jetified-firebase-database-20.2.0\AndroidManifest.xml:24:22-76
-14    <uses-permission android:name="android.permission.INTERNET" />
-14-->[com.google.firebase:firebase-database:20.2.0] C:\Users\JaHost\.gradle\caches\transforms-3\f517d7b42627a83b9a4c1dfc0e03e751\transformed\jetified-firebase-database-20.2.0\AndroidManifest.xml:25:5-67
-14-->[com.google.firebase:firebase-database:20.2.0] C:\Users\JaHost\.gradle\caches\transforms-3\f517d7b42627a83b9a4c1dfc0e03e751\transformed\jetified-firebase-database-20.2.0\AndroidManifest.xml:25:22-64
-15
-16    <permission
-16-->[androidx.core:core:1.9.0] C:\Users\JaHost\.gradle\caches\transforms-3\3a73d4c1cdf65c14c4dc712518275464\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
-17        android:name="com.example.invbike.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-17-->[androidx.core:core:1.9.0] C:\Users\JaHost\.gradle\caches\transforms-3\3a73d4c1cdf65c14c4dc712518275464\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
-18        android:protectionLevel="signature" />
-18-->[androidx.core:core:1.9.0] C:\Users\JaHost\.gradle\caches\transforms-3\3a73d4c1cdf65c14c4dc712518275464\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
-19
-20    <uses-permission android:name="com.example.invbike.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-20-->[androidx.core:core:1.9.0] C:\Users\JaHost\.gradle\caches\transforms-3\3a73d4c1cdf65c14c4dc712518275464\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
-20-->[androidx.core:core:1.9.0] C:\Users\JaHost\.gradle\caches\transforms-3\3a73d4c1cdf65c14c4dc712518275464\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
-21
-22    <application
-22-->C:\Users\JaHost\Documents\GitHub\InvBike\app\src\main\AndroidManifest.xml:5:5-21:19
-23        android:allowBackup="true"
-23-->C:\Users\JaHost\Documents\GitHub\InvBike\app\src\main\AndroidManifest.xml:6:9-35
-24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-24-->[androidx.core:core:1.9.0] C:\Users\JaHost\.gradle\caches\transforms-3\3a73d4c1cdf65c14c4dc712518275464\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
-25        android:debuggable="true"
-26        android:extractNativeLibs="false"
-27        android:icon="@mipmap/ic_launcher"
-27-->C:\Users\JaHost\Documents\GitHub\InvBike\app\src\main\AndroidManifest.xml:7:9-43
-28        android:label="@string/app_name"
-28-->C:\Users\JaHost\Documents\GitHub\InvBike\app\src\main\AndroidManifest.xml:8:9-41
-29        android:roundIcon="@mipmap/ic_launcher_round"
-29-->C:\Users\JaHost\Documents\GitHub\InvBike\app\src\main\AndroidManifest.xml:9:9-54
-30        android:supportsRtl="true"
-30-->C:\Users\JaHost\Documents\GitHub\InvBike\app\src\main\AndroidManifest.xml:10:9-35
-31        android:theme="@style/Theme.InvBike" >
-31-->C:\Users\JaHost\Documents\GitHub\InvBike\app\src\main\AndroidManifest.xml:11:9-45
-32        <activity
-32-->C:\Users\JaHost\Documents\GitHub\InvBike\app\src\main\AndroidManifest.xml:12:9-20:20
-33            android:name="com.example.invbike.MainActivity"
-33-->C:\Users\JaHost\Documents\GitHub\InvBike\app\src\main\AndroidManifest.xml:13:13-41
-34            android:exported="true" >
-34-->C:\Users\JaHost\Documents\GitHub\InvBike\app\src\main\AndroidManifest.xml:14:13-36
-35            <intent-filter>
-35-->C:\Users\JaHost\Documents\GitHub\InvBike\app\src\main\AndroidManifest.xml:15:13-19:29
-36                <action android:name="android.intent.action.MAIN" />
-36-->C:\Users\JaHost\Documents\GitHub\InvBike\app\src\main\AndroidManifest.xml:16:17-69
-36-->C:\Users\JaHost\Documents\GitHub\InvBike\app\src\main\AndroidManifest.xml:16:25-66
+11    <permission
+11-->[androidx.core:core:1.9.0] C:\Users\JaHost\.gradle\caches\transforms-3\68a44a86c05f0b625287b96cd3311c72\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+12        android:name="com.example.invbike.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.9.0] C:\Users\JaHost\.gradle\caches\transforms-3\68a44a86c05f0b625287b96cd3311c72\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.9.0] C:\Users\JaHost\.gradle\caches\transforms-3\68a44a86c05f0b625287b96cd3311c72\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.example.invbike.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.9.0] C:\Users\JaHost\.gradle\caches\transforms-3\68a44a86c05f0b625287b96cd3311c72\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.9.0] C:\Users\JaHost\.gradle\caches\transforms-3\68a44a86c05f0b625287b96cd3311c72\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->C:\Users\JaHost\Documents\GitHub\InvBike\app\src\main\AndroidManifest.xml:5:5-21:19
+18        android:allowBackup="true"
+18-->C:\Users\JaHost\Documents\GitHub\InvBike\app\src\main\AndroidManifest.xml:6:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.9.0] C:\Users\JaHost\.gradle\caches\transforms-3\68a44a86c05f0b625287b96cd3311c72\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+20        android:debuggable="true"
+21        android:extractNativeLibs="false"
+22        android:icon="@mipmap/ic_launcher"
+22-->C:\Users\JaHost\Documents\GitHub\InvBike\app\src\main\AndroidManifest.xml:7:9-43
+23        android:label="@string/app_name"
+23-->C:\Users\JaHost\Documents\GitHub\InvBike\app\src\main\AndroidManifest.xml:8:9-41
+24        android:roundIcon="@mipmap/ic_launcher_round"
+24-->C:\Users\JaHost\Documents\GitHub\InvBike\app\src\main\AndroidManifest.xml:9:9-54
+25        android:supportsRtl="true"
+25-->C:\Users\JaHost\Documents\GitHub\InvBike\app\src\main\AndroidManifest.xml:10:9-35
+26        android:testOnly="true"
+27        android:theme="@style/Theme.InvBike" >
+27-->C:\Users\JaHost\Documents\GitHub\InvBike\app\src\main\AndroidManifest.xml:11:9-45
+28        <activity
+28-->C:\Users\JaHost\Documents\GitHub\InvBike\app\src\main\AndroidManifest.xml:12:9-20:20
+29            android:name="com.example.invbike.MainActivity"
+29-->C:\Users\JaHost\Documents\GitHub\InvBike\app\src\main\AndroidManifest.xml:13:13-41
+30            android:exported="true" >
+30-->C:\Users\JaHost\Documents\GitHub\InvBike\app\src\main\AndroidManifest.xml:14:13-36
+31            <intent-filter>
+31-->C:\Users\JaHost\Documents\GitHub\InvBike\app\src\main\AndroidManifest.xml:15:13-19:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->C:\Users\JaHost\Documents\GitHub\InvBike\app\src\main\AndroidManifest.xml:16:17-69
+32-->C:\Users\JaHost\Documents\GitHub\InvBike\app\src\main\AndroidManifest.xml:16:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->C:\Users\JaHost\Documents\GitHub\InvBike\app\src\main\AndroidManifest.xml:18:17-77
+34-->C:\Users\JaHost\Documents\GitHub\InvBike\app\src\main\AndroidManifest.xml:18:27-74
+35            </intent-filter>
+36        </activity>
 37
-38                <category android:name="android.intent.category.LAUNCHER" />
-38-->C:\Users\JaHost\Documents\GitHub\InvBike\app\src\main\AndroidManifest.xml:18:17-77
-38-->C:\Users\JaHost\Documents\GitHub\InvBike\app\src\main\AndroidManifest.xml:18:27-74
-39            </intent-filter>
-40        </activity>
-41
-42        <service
-42-->[com.google.firebase:firebase-database-ktx:20.2.0] C:\Users\JaHost\.gradle\caches\transforms-3\7962eb7e31cd874392a786ede3afac4f\transformed\jetified-firebase-database-ktx-20.2.0\AndroidManifest.xml:11:9-17:19
-43            android:name="com.google.firebase.components.ComponentDiscoveryService"
-43-->[com.google.firebase:firebase-database-ktx:20.2.0] C:\Users\JaHost\.gradle\caches\transforms-3\7962eb7e31cd874392a786ede3afac4f\transformed\jetified-firebase-database-ktx-20.2.0\AndroidManifest.xml:12:13-84
-44            android:directBootAware="true"
-44-->[com.google.firebase:firebase-common:20.3.2] C:\Users\JaHost\.gradle\caches\transforms-3\ac4bc84ddc3354d5abf987fa9c0d0b1c\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:34:13-43
-45            android:exported="false" >
-45-->[com.google.firebase:firebase-database-ktx:20.2.0] C:\Users\JaHost\.gradle\caches\transforms-3\7962eb7e31cd874392a786ede3afac4f\transformed\jetified-firebase-database-ktx-20.2.0\AndroidManifest.xml:13:13-37
-46            <meta-data
-46-->[com.google.firebase:firebase-database-ktx:20.2.0] C:\Users\JaHost\.gradle\caches\transforms-3\7962eb7e31cd874392a786ede3afac4f\transformed\jetified-firebase-database-ktx-20.2.0\AndroidManifest.xml:14:13-16:85
-47                android:name="com.google.firebase.components:com.google.firebase.database.ktx.FirebaseDatabaseKtxRegistrar"
-47-->[com.google.firebase:firebase-database-ktx:20.2.0] C:\Users\JaHost\.gradle\caches\transforms-3\7962eb7e31cd874392a786ede3afac4f\transformed\jetified-firebase-database-ktx-20.2.0\AndroidManifest.xml:15:17-124
-48                android:value="com.google.firebase.components.ComponentRegistrar" />
-48-->[com.google.firebase:firebase-database-ktx:20.2.0] C:\Users\JaHost\.gradle\caches\transforms-3\7962eb7e31cd874392a786ede3afac4f\transformed\jetified-firebase-database-ktx-20.2.0\AndroidManifest.xml:16:17-82
-49            <meta-data
-49-->[com.google.firebase:firebase-common-ktx:20.3.2] C:\Users\JaHost\.gradle\caches\transforms-3\05e1eae2fba5b73602b8d8ec77fda712\transformed\jetified-firebase-common-ktx-20.3.2\AndroidManifest.xml:14:13-16:85
-50                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
-50-->[com.google.firebase:firebase-common-ktx:20.3.2] C:\Users\JaHost\.gradle\caches\transforms-3\05e1eae2fba5b73602b8d8ec77fda712\transformed\jetified-firebase-common-ktx-20.3.2\AndroidManifest.xml:15:17-113
-51                android:value="com.google.firebase.components.ComponentRegistrar" />
-51-->[com.google.firebase:firebase-common-ktx:20.3.2] C:\Users\JaHost\.gradle\caches\transforms-3\05e1eae2fba5b73602b8d8ec77fda712\transformed\jetified-firebase-common-ktx-20.3.2\AndroidManifest.xml:16:17-82
-52            <meta-data
-52-->[com.google.firebase:firebase-database:20.2.0] C:\Users\JaHost\.gradle\caches\transforms-3\f517d7b42627a83b9a4c1dfc0e03e751\transformed\jetified-firebase-database-20.2.0\AndroidManifest.xml:31:13-33:85
-53                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
-53-->[com.google.firebase:firebase-database:20.2.0] C:\Users\JaHost\.gradle\caches\transforms-3\f517d7b42627a83b9a4c1dfc0e03e751\transformed\jetified-firebase-database-20.2.0\AndroidManifest.xml:32:17-109
-54                android:value="com.google.firebase.components.ComponentRegistrar" />
-54-->[com.google.firebase:firebase-database:20.2.0] C:\Users\JaHost\.gradle\caches\transforms-3\f517d7b42627a83b9a4c1dfc0e03e751\transformed\jetified-firebase-database-20.2.0\AndroidManifest.xml:33:17-82
-55        </service>
-56
-57        <provider
-57-->[com.google.firebase:firebase-common:20.3.2] C:\Users\JaHost\.gradle\caches\transforms-3\ac4bc84ddc3354d5abf987fa9c0d0b1c\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:25:9-30:39
-58            android:name="com.google.firebase.provider.FirebaseInitProvider"
-58-->[com.google.firebase:firebase-common:20.3.2] C:\Users\JaHost\.gradle\caches\transforms-3\ac4bc84ddc3354d5abf987fa9c0d0b1c\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:26:13-77
-59            android:authorities="com.example.invbike.firebaseinitprovider"
-59-->[com.google.firebase:firebase-common:20.3.2] C:\Users\JaHost\.gradle\caches\transforms-3\ac4bc84ddc3354d5abf987fa9c0d0b1c\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:27:13-72
-60            android:directBootAware="true"
-60-->[com.google.firebase:firebase-common:20.3.2] C:\Users\JaHost\.gradle\caches\transforms-3\ac4bc84ddc3354d5abf987fa9c0d0b1c\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:28:13-43
-61            android:exported="false"
-61-->[com.google.firebase:firebase-common:20.3.2] C:\Users\JaHost\.gradle\caches\transforms-3\ac4bc84ddc3354d5abf987fa9c0d0b1c\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:29:13-37
-62            android:initOrder="100" />
-62-->[com.google.firebase:firebase-common:20.3.2] C:\Users\JaHost\.gradle\caches\transforms-3\ac4bc84ddc3354d5abf987fa9c0d0b1c\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:30:13-36
-63
-64        <activity
-64-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\JaHost\.gradle\caches\transforms-3\2e0d9b5f99e57e51f4e7a47ee0d40a92\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
-65            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-65-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\JaHost\.gradle\caches\transforms-3\2e0d9b5f99e57e51f4e7a47ee0d40a92\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:19-85
-66            android:exported="false"
-66-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\JaHost\.gradle\caches\transforms-3\2e0d9b5f99e57e51f4e7a47ee0d40a92\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:22:19-43
-67            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-67-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\JaHost\.gradle\caches\transforms-3\2e0d9b5f99e57e51f4e7a47ee0d40a92\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:21:19-78
-68
-69        <meta-data
-69-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\JaHost\.gradle\caches\transforms-3\1180af29978118d7e76c8f76fe09ec34\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
-70            android:name="com.google.android.gms.version"
-70-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\JaHost\.gradle\caches\transforms-3\1180af29978118d7e76c8f76fe09ec34\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
-71            android:value="@integer/google_play_services_version" />
-71-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\JaHost\.gradle\caches\transforms-3\1180af29978118d7e76c8f76fe09ec34\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
-72
-73        <provider
-73-->[androidx.emoji2:emoji2:1.0.0] C:\Users\JaHost\.gradle\caches\transforms-3\86bbdb4c704f0c6ef69f85fd6941d5d8\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
-74            android:name="androidx.startup.InitializationProvider"
-74-->[androidx.emoji2:emoji2:1.0.0] C:\Users\JaHost\.gradle\caches\transforms-3\86bbdb4c704f0c6ef69f85fd6941d5d8\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
-75            android:authorities="com.example.invbike.androidx-startup"
-75-->[androidx.emoji2:emoji2:1.0.0] C:\Users\JaHost\.gradle\caches\transforms-3\86bbdb4c704f0c6ef69f85fd6941d5d8\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
-76            android:exported="false" >
-76-->[androidx.emoji2:emoji2:1.0.0] C:\Users\JaHost\.gradle\caches\transforms-3\86bbdb4c704f0c6ef69f85fd6941d5d8\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
-77            <meta-data
-77-->[androidx.emoji2:emoji2:1.0.0] C:\Users\JaHost\.gradle\caches\transforms-3\86bbdb4c704f0c6ef69f85fd6941d5d8\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
-78                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-78-->[androidx.emoji2:emoji2:1.0.0] C:\Users\JaHost\.gradle\caches\transforms-3\86bbdb4c704f0c6ef69f85fd6941d5d8\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
-79                android:value="androidx.startup" />
-79-->[androidx.emoji2:emoji2:1.0.0] C:\Users\JaHost\.gradle\caches\transforms-3\86bbdb4c704f0c6ef69f85fd6941d5d8\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
-80            <meta-data
-80-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\JaHost\.gradle\caches\transforms-3\60fb03f7868607ff1baa13fa3ab998ab\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
-81                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-81-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\JaHost\.gradle\caches\transforms-3\60fb03f7868607ff1baa13fa3ab998ab\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
-82                android:value="androidx.startup" />
-82-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\JaHost\.gradle\caches\transforms-3\60fb03f7868607ff1baa13fa3ab998ab\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
-83        </provider>
-84    </application>
-85
-86</manifest>
+38        <provider
+38-->[androidx.emoji2:emoji2:1.0.0] C:\Users\JaHost\.gradle\caches\transforms-3\7fffe25ad1dff3563a4fb891c87d6005\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+39            android:name="androidx.startup.InitializationProvider"
+39-->[androidx.emoji2:emoji2:1.0.0] C:\Users\JaHost\.gradle\caches\transforms-3\7fffe25ad1dff3563a4fb891c87d6005\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+40            android:authorities="com.example.invbike.androidx-startup"
+40-->[androidx.emoji2:emoji2:1.0.0] C:\Users\JaHost\.gradle\caches\transforms-3\7fffe25ad1dff3563a4fb891c87d6005\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+41            android:exported="false" >
+41-->[androidx.emoji2:emoji2:1.0.0] C:\Users\JaHost\.gradle\caches\transforms-3\7fffe25ad1dff3563a4fb891c87d6005\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+42            <meta-data
+42-->[androidx.emoji2:emoji2:1.0.0] C:\Users\JaHost\.gradle\caches\transforms-3\7fffe25ad1dff3563a4fb891c87d6005\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+43                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+43-->[androidx.emoji2:emoji2:1.0.0] C:\Users\JaHost\.gradle\caches\transforms-3\7fffe25ad1dff3563a4fb891c87d6005\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+44                android:value="androidx.startup" />
+44-->[androidx.emoji2:emoji2:1.0.0] C:\Users\JaHost\.gradle\caches\transforms-3\7fffe25ad1dff3563a4fb891c87d6005\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+45            <meta-data
+45-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\JaHost\.gradle\caches\transforms-3\b25efc58b39116f82db5102acc34f880\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+46                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+46-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\JaHost\.gradle\caches\transforms-3\b25efc58b39116f82db5102acc34f880\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+47                android:value="androidx.startup" />
+47-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\JaHost\.gradle\caches\transforms-3\b25efc58b39116f82db5102acc34f880\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+48        </provider>
+49    </application>
+50
+51</manifest>

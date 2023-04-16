@@ -28,12 +28,12 @@
         "source": "C:\\Users\\JaHost\\Documents\\GitHub\\InvBike\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\JaHost\\Documents\\GitHub\\InvBike\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\JaHost\\Documents\\GitHub\\InvBike\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
-    },
-    {
         "merged": "C:\\Users\\JaHost\\Documents\\GitHub\\InvBike\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\JaHost\\Documents\\GitHub\\InvBike\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\JaHost\\Documents\\GitHub\\InvBike\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\JaHost\\Documents\\GitHub\\InvBike\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
         "merged": "C:\\Users\\JaHost\\Documents\\GitHub\\InvBike\\app\\build\\intermediates\\merged_res\\debug\\layout_kalkulator_ramy.xml.flat",
@@ -52,12 +52,12 @@
         "source": "C:\\Users\\JaHost\\Documents\\GitHub\\InvBike\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\JaHost\\Documents\\GitHub\\InvBike\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\JaHost\\Documents\\GitHub\\InvBike\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
-    },
-    {
         "merged": "C:\\Users\\JaHost\\Documents\\GitHub\\InvBike\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\JaHost\\Documents\\GitHub\\InvBike\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\JaHost\\Documents\\GitHub\\InvBike\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\JaHost\\Documents\\GitHub\\InvBike\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
         "merged": "C:\\Users\\JaHost\\Documents\\GitHub\\InvBike\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
