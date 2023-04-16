@@ -1,5 +1,0 @@
-C:\Users\JaHost\Documents\GitHub\InvBike\app\src\main\java\com\example\invbike\kalkulator_ramy.kt
-C:\Users\JaHost\Documents\GitHub\InvBike\app\src\main\java\com\example\invbike\ekran_wyszukiwania.kt
-C:\Users\JaHost\Documents\GitHub\InvBike\app\src\main\java\com\example\invbike\koszytk_lista_zyczen.kt
-C:\Users\JaHost\Documents\GitHub\InvBike\app\src\main\java\com\example\invbike\MainActivity.kt
-C:\Users\JaHost\Documents\GitHub\InvBike\app\src\main\java\com\example\invbike\database.kt
