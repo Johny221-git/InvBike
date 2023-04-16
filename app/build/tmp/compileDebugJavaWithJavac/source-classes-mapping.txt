@@ -8,10 +8,3 @@ com/example/invbike/databinding/KalkulatorRamyBinding.java
  com.example.invbike.databinding.KalkulatorRamyBinding
 com/example/invbike/BuildConfig.java
  com.example.invbike.BuildConfig
-com/example/invbike/ProduktDao_Impl.java
- com.example.invbike.ProduktDao_Impl
- com.example.invbike.ProduktDao_Impl$1
- com.example.invbike.ProduktDao_Impl$2
-com/example/invbike/AppDatabase_Impl.java
- com.example.invbike.AppDatabase_Impl
- com.example.invbike.AppDatabase_Impl$1
