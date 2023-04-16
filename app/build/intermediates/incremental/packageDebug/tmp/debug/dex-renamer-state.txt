@@ -1,16 +1,13 @@
-#Sun Apr 16 23:41:33 CEST 2023
-path.4=classes2.dex
-path.3=12/classes.dex
-path.2=14/classes.dex
+#Mon Apr 17 00:04:32 CEST 2023
+path.3=14/classes.dex
+path.2=12/classes.dex
 path.1=0/classes.dex
 path.0=classes.dex
-base.4=C\:\\Users\\JaHost\\Documents\\GitHub\\InvBike\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
-base.3=C\:\\Users\\JaHost\\Documents\\GitHub\\InvBike\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\12\\classes.dex
-base.2=C\:\\Users\\JaHost\\Documents\\GitHub\\InvBike\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\14\\classes.dex
+base.3=C\:\\Users\\JaHost\\Documents\\GitHub\\InvBike\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\14\\classes.dex
+base.2=C\:\\Users\\JaHost\\Documents\\GitHub\\InvBike\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\12\\classes.dex
 base.1=C\:\\Users\\JaHost\\Documents\\GitHub\\InvBike\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 base.0=C\:\\Users\\JaHost\\Documents\\GitHub\\InvBike\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 renamed.3=classes4.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex
-renamed.4=classes5.dex
