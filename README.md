@@ -6,17 +6,14 @@ Projekt stworzony na potrzeby kursu na Politechnice Wrocławskiej
 
 Cel projektu: 
 Stworzenie programu mobilnego do inwnetaryzacji sklepu rowerowego za pośrednictwem środowiska Android Studio (Kotlin).
-W użyciu będzie również baza dantych sqlite.
+W użyciu będzie również baza dantych Firebase.
 
 InwBike będzie posiadał następujące funkcje:
 - Wyszukiwanie przedmiotów 
 - System logowania pracownika
-- Lista wybranych produktów (wish list/koszyk)
+- Lista wybranych produktów (wyróznowny zestaw ułożony przez pracownika)
 - Kalkulator do obliczania wielkości ramy rowerowej
 - Wyświetlanie opisu produktów w osobnym oknie
-- Obsługa ekranu dotykowego z użyciem gestów
-
-*dodatkowa funkcja jeśli, któraś z poprzednich nie spełni wymagań
 
 
 Wstępne szkice ekranów aplikcaji:
