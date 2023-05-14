@@ -25,7 +25,7 @@ public final class ActivityMainBinding implements ViewBinding {
   public final Button button;
 
   @NonNull
-  public final Button button2;
+  public final Button buttonLogin;
 
   @NonNull
   public final EditText editTextTextPassword;
@@ -37,11 +37,11 @@ public final class ActivityMainBinding implements ViewBinding {
   public final TextView textView;
 
   private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull Button button,
-      @NonNull Button button2, @NonNull EditText editTextTextPassword,
+      @NonNull Button buttonLogin, @NonNull EditText editTextTextPassword,
       @NonNull EditText editTextTextPersonName, @NonNull TextView textView) {
     this.rootView = rootView;
     this.button = button;
-    this.button2 = button2;
+    this.buttonLogin = buttonLogin;
     this.editTextTextPassword = editTextTextPassword;
     this.editTextTextPersonName = editTextTextPersonName;
     this.textView = textView;
@@ -80,9 +80,9 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.button2;
-      Button button2 = ViewBindings.findChildViewById(rootView, id);
-      if (button2 == null) {
+      id = R.id.button_login;
+      Button buttonLogin = ViewBindings.findChildViewById(rootView, id);
+      if (buttonLogin == null) {
         break missingId;
       }
 
@@ -104,7 +104,7 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityMainBinding((ConstraintLayout) rootView, button, button2,
+      return new ActivityMainBinding((ConstraintLayout) rootView, button, buttonLogin,
           editTextTextPassword, editTextTextPersonName, textView);
     }
     String missingId = rootView.getResources().getResourceName(id);

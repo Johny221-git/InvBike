@@ -1,11 +1,20 @@
 package com.example.invbike
 
 import android.content.Intent
-import android.os.Bundle
-import android.widget.Button
+import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
+
+    fun button_login(view: View) {
+        var przejscie = Intent(
+            this,
+            ekran_wyszukiwania::class.java)
+        startActivity(przejscie) }
+}
+
+
+/*class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -17,3 +26,5 @@ class MainActivity : AppCompatActivity() {
         }
     }
 }
+
+ */

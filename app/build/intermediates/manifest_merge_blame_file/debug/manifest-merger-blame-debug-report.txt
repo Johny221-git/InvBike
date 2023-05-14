@@ -6,79 +6,78 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="30"
-8-->C:\Users\Emil\StudioProjects\InvBike\app\src\main\AndroidManifest.xml
+8-->C:\Users\JaHost\Documents\GitHub\InvBike\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="33" />
-9-->C:\Users\Emil\StudioProjects\InvBike\app\src\main\AndroidManifest.xml
+9-->C:\Users\JaHost\Documents\GitHub\InvBike\app\src\main\AndroidManifest.xml
 10
 11    <permission
-11-->[androidx.core:core:1.9.0] C:\Users\Emil\.gradle\caches\transforms-3\764bc2dab55f5d5d2f0009a65a3f708f\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+11-->[androidx.core:core:1.9.0] C:\Users\JaHost\.gradle\caches\transforms-3\764bc2dab55f5d5d2f0009a65a3f708f\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
 12        android:name="com.example.invbike.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-12-->[androidx.core:core:1.9.0] C:\Users\Emil\.gradle\caches\transforms-3\764bc2dab55f5d5d2f0009a65a3f708f\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+12-->[androidx.core:core:1.9.0] C:\Users\JaHost\.gradle\caches\transforms-3\764bc2dab55f5d5d2f0009a65a3f708f\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
 13        android:protectionLevel="signature" />
-13-->[androidx.core:core:1.9.0] C:\Users\Emil\.gradle\caches\transforms-3\764bc2dab55f5d5d2f0009a65a3f708f\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+13-->[androidx.core:core:1.9.0] C:\Users\JaHost\.gradle\caches\transforms-3\764bc2dab55f5d5d2f0009a65a3f708f\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
 14
 15    <uses-permission android:name="com.example.invbike.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-15-->[androidx.core:core:1.9.0] C:\Users\Emil\.gradle\caches\transforms-3\764bc2dab55f5d5d2f0009a65a3f708f\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
-15-->[androidx.core:core:1.9.0] C:\Users\Emil\.gradle\caches\transforms-3\764bc2dab55f5d5d2f0009a65a3f708f\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+15-->[androidx.core:core:1.9.0] C:\Users\JaHost\.gradle\caches\transforms-3\764bc2dab55f5d5d2f0009a65a3f708f\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.9.0] C:\Users\JaHost\.gradle\caches\transforms-3\764bc2dab55f5d5d2f0009a65a3f708f\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
 16
 17    <application
-17-->C:\Users\Emil\StudioProjects\InvBike\app\src\main\AndroidManifest.xml:5:5-21:19
+17-->C:\Users\JaHost\Documents\GitHub\InvBike\app\src\main\AndroidManifest.xml:5:5-21:19
 18        android:allowBackup="true"
-18-->C:\Users\Emil\StudioProjects\InvBike\app\src\main\AndroidManifest.xml:6:9-35
+18-->C:\Users\JaHost\Documents\GitHub\InvBike\app\src\main\AndroidManifest.xml:6:9-35
 19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-19-->[androidx.core:core:1.9.0] C:\Users\Emil\.gradle\caches\transforms-3\764bc2dab55f5d5d2f0009a65a3f708f\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+19-->[androidx.core:core:1.9.0] C:\Users\JaHost\.gradle\caches\transforms-3\764bc2dab55f5d5d2f0009a65a3f708f\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
 20        android:debuggable="true"
 21        android:extractNativeLibs="false"
 22        android:icon="@mipmap/ic_launcher"
-22-->C:\Users\Emil\StudioProjects\InvBike\app\src\main\AndroidManifest.xml:7:9-43
+22-->C:\Users\JaHost\Documents\GitHub\InvBike\app\src\main\AndroidManifest.xml:7:9-43
 23        android:label="@string/app_name"
-23-->C:\Users\Emil\StudioProjects\InvBike\app\src\main\AndroidManifest.xml:8:9-41
+23-->C:\Users\JaHost\Documents\GitHub\InvBike\app\src\main\AndroidManifest.xml:8:9-41
 24        android:roundIcon="@mipmap/ic_launcher_round"
-24-->C:\Users\Emil\StudioProjects\InvBike\app\src\main\AndroidManifest.xml:9:9-54
+24-->C:\Users\JaHost\Documents\GitHub\InvBike\app\src\main\AndroidManifest.xml:9:9-54
 25        android:supportsRtl="true"
-25-->C:\Users\Emil\StudioProjects\InvBike\app\src\main\AndroidManifest.xml:10:9-35
-26        android:testOnly="true"
-27        android:theme="@style/Theme.InvBike" >
-27-->C:\Users\Emil\StudioProjects\InvBike\app\src\main\AndroidManifest.xml:11:9-45
-28        <activity
-28-->C:\Users\Emil\StudioProjects\InvBike\app\src\main\AndroidManifest.xml:12:9-20:20
-29            android:name="com.example.invbike.MainActivity"
-29-->C:\Users\Emil\StudioProjects\InvBike\app\src\main\AndroidManifest.xml:13:13-41
-30            android:exported="true" >
-30-->C:\Users\Emil\StudioProjects\InvBike\app\src\main\AndroidManifest.xml:14:13-36
-31            <intent-filter>
-31-->C:\Users\Emil\StudioProjects\InvBike\app\src\main\AndroidManifest.xml:15:13-19:29
-32                <action android:name="android.intent.action.MAIN" />
-32-->C:\Users\Emil\StudioProjects\InvBike\app\src\main\AndroidManifest.xml:16:17-69
-32-->C:\Users\Emil\StudioProjects\InvBike\app\src\main\AndroidManifest.xml:16:25-66
-33
-34                <category android:name="android.intent.category.LAUNCHER" />
-34-->C:\Users\Emil\StudioProjects\InvBike\app\src\main\AndroidManifest.xml:18:17-77
-34-->C:\Users\Emil\StudioProjects\InvBike\app\src\main\AndroidManifest.xml:18:27-74
-35            </intent-filter>
-36        </activity>
-37
-38        <provider
-38-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Emil\.gradle\caches\transforms-3\97dce8a5281b75f89ffae94415dfc279\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
-39            android:name="androidx.startup.InitializationProvider"
-39-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Emil\.gradle\caches\transforms-3\97dce8a5281b75f89ffae94415dfc279\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
-40            android:authorities="com.example.invbike.androidx-startup"
-40-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Emil\.gradle\caches\transforms-3\97dce8a5281b75f89ffae94415dfc279\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
-41            android:exported="false" >
-41-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Emil\.gradle\caches\transforms-3\97dce8a5281b75f89ffae94415dfc279\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
-42            <meta-data
-42-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Emil\.gradle\caches\transforms-3\97dce8a5281b75f89ffae94415dfc279\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
-43                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-43-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Emil\.gradle\caches\transforms-3\97dce8a5281b75f89ffae94415dfc279\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
-44                android:value="androidx.startup" />
-44-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Emil\.gradle\caches\transforms-3\97dce8a5281b75f89ffae94415dfc279\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
-45            <meta-data
-45-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Emil\.gradle\caches\transforms-3\db5ed4f9cc0cafded1c067cd13b47b7c\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
-46                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-46-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Emil\.gradle\caches\transforms-3\db5ed4f9cc0cafded1c067cd13b47b7c\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
-47                android:value="androidx.startup" />
-47-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Emil\.gradle\caches\transforms-3\db5ed4f9cc0cafded1c067cd13b47b7c\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
-48        </provider>
-49    </application>
-50
-51</manifest>
+25-->C:\Users\JaHost\Documents\GitHub\InvBike\app\src\main\AndroidManifest.xml:10:9-35
+26        android:theme="@style/Theme.InvBike" >
+26-->C:\Users\JaHost\Documents\GitHub\InvBike\app\src\main\AndroidManifest.xml:11:9-45
+27        <activity
+27-->C:\Users\JaHost\Documents\GitHub\InvBike\app\src\main\AndroidManifest.xml:12:9-20:20
+28            android:name="com.example.invbike.MainActivity"
+28-->C:\Users\JaHost\Documents\GitHub\InvBike\app\src\main\AndroidManifest.xml:13:13-41
+29            android:exported="true" >
+29-->C:\Users\JaHost\Documents\GitHub\InvBike\app\src\main\AndroidManifest.xml:14:13-36
+30            <intent-filter>
+30-->C:\Users\JaHost\Documents\GitHub\InvBike\app\src\main\AndroidManifest.xml:15:13-19:29
+31                <action android:name="android.intent.action.MAIN" />
+31-->C:\Users\JaHost\Documents\GitHub\InvBike\app\src\main\AndroidManifest.xml:16:17-69
+31-->C:\Users\JaHost\Documents\GitHub\InvBike\app\src\main\AndroidManifest.xml:16:25-66
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->C:\Users\JaHost\Documents\GitHub\InvBike\app\src\main\AndroidManifest.xml:18:17-77
+33-->C:\Users\JaHost\Documents\GitHub\InvBike\app\src\main\AndroidManifest.xml:18:27-74
+34            </intent-filter>
+35        </activity>
+36
+37        <provider
+37-->[androidx.emoji2:emoji2:1.0.0] C:\Users\JaHost\.gradle\caches\transforms-3\97dce8a5281b75f89ffae94415dfc279\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+38            android:name="androidx.startup.InitializationProvider"
+38-->[androidx.emoji2:emoji2:1.0.0] C:\Users\JaHost\.gradle\caches\transforms-3\97dce8a5281b75f89ffae94415dfc279\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+39            android:authorities="com.example.invbike.androidx-startup"
+39-->[androidx.emoji2:emoji2:1.0.0] C:\Users\JaHost\.gradle\caches\transforms-3\97dce8a5281b75f89ffae94415dfc279\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+40            android:exported="false" >
+40-->[androidx.emoji2:emoji2:1.0.0] C:\Users\JaHost\.gradle\caches\transforms-3\97dce8a5281b75f89ffae94415dfc279\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+41            <meta-data
+41-->[androidx.emoji2:emoji2:1.0.0] C:\Users\JaHost\.gradle\caches\transforms-3\97dce8a5281b75f89ffae94415dfc279\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+42                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+42-->[androidx.emoji2:emoji2:1.0.0] C:\Users\JaHost\.gradle\caches\transforms-3\97dce8a5281b75f89ffae94415dfc279\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+43                android:value="androidx.startup" />
+43-->[androidx.emoji2:emoji2:1.0.0] C:\Users\JaHost\.gradle\caches\transforms-3\97dce8a5281b75f89ffae94415dfc279\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+44            <meta-data
+44-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\JaHost\.gradle\caches\transforms-3\db5ed4f9cc0cafded1c067cd13b47b7c\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+45                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+45-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\JaHost\.gradle\caches\transforms-3\db5ed4f9cc0cafded1c067cd13b47b7c\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+46                android:value="androidx.startup" />
+46-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\JaHost\.gradle\caches\transforms-3\db5ed4f9cc0cafded1c067cd13b47b7c\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+47        </provider>
+48    </application>
+49
+50</manifest>

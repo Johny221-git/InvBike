@@ -1,27 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Emil\\StudioProjects\\InvBike\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rIN\\values-en-rIN.xml",
+            "outputFile": "C:\\Users\\JaHost\\Documents\\GitHub\\InvBike\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rIN\\values-en-rIN.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Emil\\.gradle\\caches\\transforms-3\\764bc2dab55f5d5d2f0009a65a3f708f\\transformed\\core-1.9.0\\res\\values-en-rIN\\values-en-rIN.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "32",
-                        "startColumns": "4",
-                        "startOffsets": "3068",
-                        "endColumns": "100",
-                        "endOffsets": "3164"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Emil\\.gradle\\caches\\transforms-3\\3489b7cf7d017234410b3f1af61b5fff\\transformed\\appcompat-1.4.0\\res\\values-en-rIN\\values-en-rIN.xml",
+                    "source": "C:\\Users\\JaHost\\.gradle\\caches\\transforms-3\\3489b7cf7d017234410b3f1af61b5fff\\transformed\\appcompat-1.4.0\\res\\values-en-rIN\\values-en-rIN.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -38,7 +21,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Emil\\.gradle\\caches\\transforms-3\\5992685ffe97e1180f2ee9da21f5e81b\\transformed\\navigation-ui-2.3.5\\res\\values-en-rIN\\values-en-rIN.xml",
+                    "source": "C:\\Users\\JaHost\\.gradle\\caches\\transforms-3\\764bc2dab55f5d5d2f0009a65a3f708f\\transformed\\core-1.9.0\\res\\values-en-rIN\\values-en-rIN.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "32",
+                        "startColumns": "4",
+                        "startOffsets": "3068",
+                        "endColumns": "100",
+                        "endOffsets": "3164"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\JaHost\\.gradle\\caches\\transforms-3\\5992685ffe97e1180f2ee9da21f5e81b\\transformed\\navigation-ui-2.3.5\\res\\values-en-rIN\\values-en-rIN.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
