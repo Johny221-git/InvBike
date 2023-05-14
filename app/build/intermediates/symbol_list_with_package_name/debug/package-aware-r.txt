@@ -2560,7 +2560,6 @@ id SHOW_PROGRESS
 id SYM
 id TOP_END
 id TOP_START
-id _dynamic
 id accelerate
 id accessibility_action_clickable_span
 id accessibility_custom_action_0
@@ -2650,15 +2649,14 @@ id button
 id button10
 id button11
 id button12
+id button2
 id button3
-id button4
 id button5
 id button6
 id button7
 id button8
 id button9
 id buttonPanel
-id button_login
 id button_look
 id cache_measures
 id callMeasure
@@ -2937,6 +2935,7 @@ id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
 id scrollable
+id searchView
 id search_badge
 id search_bar
 id search_button
@@ -3402,6 +3401,7 @@ string project_id
 string search_menu_title
 string status_bar_notification_info_overflow
 string text_login
+string wr
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style AndroidThemeColorAccentYellow

@@ -21,9 +21,6 @@ public final class KoszytkListaZyczenBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final Button button4;
-
-  @NonNull
   public final Button button7;
 
   @NonNull
@@ -35,11 +32,9 @@ public final class KoszytkListaZyczenBinding implements ViewBinding {
   @NonNull
   public final ImageView imageView2;
 
-  private KoszytkListaZyczenBinding(@NonNull ConstraintLayout rootView, @NonNull Button button4,
-      @NonNull Button button7, @NonNull Button button8, @NonNull Button button9,
-      @NonNull ImageView imageView2) {
+  private KoszytkListaZyczenBinding(@NonNull ConstraintLayout rootView, @NonNull Button button7,
+      @NonNull Button button8, @NonNull Button button9, @NonNull ImageView imageView2) {
     this.rootView = rootView;
-    this.button4 = button4;
     this.button7 = button7;
     this.button8 = button8;
     this.button9 = button9;
@@ -73,12 +68,6 @@ public final class KoszytkListaZyczenBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.button4;
-      Button button4 = ViewBindings.findChildViewById(rootView, id);
-      if (button4 == null) {
-        break missingId;
-      }
-
       id = R.id.button7;
       Button button7 = ViewBindings.findChildViewById(rootView, id);
       if (button7 == null) {
@@ -103,8 +92,8 @@ public final class KoszytkListaZyczenBinding implements ViewBinding {
         break missingId;
       }
 
-      return new KoszytkListaZyczenBinding((ConstraintLayout) rootView, button4, button7, button8,
-          button9, imageView2);
+      return new KoszytkListaZyczenBinding((ConstraintLayout) rootView, button7, button8, button9,
+          imageView2);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -10,6 +10,7 @@
     <string name="button_look">Szukaj!</string>
     <string name="button_fav">Zapisane produkty</string>
     <string name="button_cal">Kalkulator ramy</string>
+    <string name="wr" />
 
-    
+
 </resources>
