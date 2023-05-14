@@ -1,18 +1,18 @@
 [
     {
-        "merged": "C:\\Users\\JaHost\\Documents\\GitHub\\InvBike\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\ekran_wyszukiwania.xml",
-        "source": "C:\\Users\\JaHost\\Documents\\GitHub\\InvBike\\app\\src\\main\\res\\layout\\ekran_wyszukiwania.xml"
+        "merged": "C:\\Users\\Emil\\StudioProjects\\InvBike\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\ekran_wyszukiwania.xml",
+        "source": "C:\\Users\\Emil\\StudioProjects\\InvBike\\app\\src\\main\\res\\layout\\ekran_wyszukiwania.xml"
     },
     {
-        "merged": "C:\\Users\\JaHost\\Documents\\GitHub\\InvBike\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\kalkulator_ramy.xml",
-        "source": "C:\\Users\\JaHost\\Documents\\GitHub\\InvBike\\app\\src\\main\\res\\layout\\kalkulator_ramy.xml"
+        "merged": "C:\\Users\\Emil\\StudioProjects\\InvBike\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Emil\\StudioProjects\\InvBike\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\JaHost\\Documents\\GitHub\\InvBike\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
-        "source": "C:\\Users\\JaHost\\Documents\\GitHub\\InvBike\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\Emil\\StudioProjects\\InvBike\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\koszytk_lista_zyczen.xml",
+        "source": "C:\\Users\\Emil\\StudioProjects\\InvBike\\app\\src\\main\\res\\layout\\koszytk_lista_zyczen.xml"
     },
     {
-        "merged": "C:\\Users\\JaHost\\Documents\\GitHub\\InvBike\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\koszytk_lista_zyczen.xml",
-        "source": "C:\\Users\\JaHost\\Documents\\GitHub\\InvBike\\app\\src\\main\\res\\layout\\koszytk_lista_zyczen.xml"
+        "merged": "C:\\Users\\Emil\\StudioProjects\\InvBike\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\kalkulator_ramy.xml",
+        "source": "C:\\Users\\Emil\\StudioProjects\\InvBike\\app\\src\\main\\res\\layout\\kalkulator_ramy.xml"
     }
 ]

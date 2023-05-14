@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\JaHost\\Documents\\GitHub\\InvBike\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-nl\\values-nl.xml",
+            "outputFile": "C:\\Users\\Emil\\StudioProjects\\InvBike\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-nl\\values-nl.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\JaHost\\.gradle\\caches\\transforms-3\\0a8aac879c50005c76241120828a3326\\transformed\\material-1.6.0\\res\\values-nl\\values-nl.xml",
+                    "source": "C:\\Users\\Emil\\.gradle\\caches\\transforms-3\\fd57da76b2d081c1a5088a2c8f34bca9\\transformed\\material-1.6.0\\res\\values-nl\\values-nl.xml",
                     "from": {
                         "startLines": "2,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -23,24 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\JaHost\\.gradle\\caches\\transforms-3\\5c574366b4fd16eeaeebd07a8e9db4f1\\transformed\\navigation-ui-2.3.5\\res\\values-nl\\values-nl.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,166",
-                        "endColumns": "110,108",
-                        "endOffsets": "161,270"
-                    },
-                    "to": {
-                        "startLines": "86,87",
-                        "startColumns": "4,4",
-                        "startOffsets": "7279,7390",
-                        "endColumns": "110,108",
-                        "endOffsets": "7385,7494"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\JaHost\\.gradle\\caches\\transforms-3\\68a44a86c05f0b625287b96cd3311c72\\transformed\\core-1.9.0\\res\\values-nl\\values-nl.xml",
+                    "source": "C:\\Users\\Emil\\.gradle\\caches\\transforms-3\\764bc2dab55f5d5d2f0009a65a3f708f\\transformed\\core-1.9.0\\res\\values-nl\\values-nl.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -57,7 +40,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\JaHost\\.gradle\\caches\\transforms-3\\0aca3018f1d5efa92024b97d85b62604\\transformed\\appcompat-1.4.0\\res\\values-nl\\values-nl.xml",
+                    "source": "C:\\Users\\Emil\\.gradle\\caches\\transforms-3\\5992685ffe97e1180f2ee9da21f5e81b\\transformed\\navigation-ui-2.3.5\\res\\values-nl\\values-nl.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,166",
+                        "endColumns": "110,108",
+                        "endOffsets": "161,270"
+                    },
+                    "to": {
+                        "startLines": "86,87",
+                        "startColumns": "4,4",
+                        "startOffsets": "7279,7390",
+                        "endColumns": "110,108",
+                        "endOffsets": "7385,7494"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Emil\\.gradle\\caches\\transforms-3\\3489b7cf7d017234410b3f1af61b5fff\\transformed\\appcompat-1.4.0\\res\\values-nl\\values-nl.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

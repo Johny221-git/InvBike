@@ -9,7 +9,8 @@
         android:id="@+id/button9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="68dp"
+        android:layout_marginEnd="76dp"
+        android:layout_marginBottom="56dp"
         android:text="Dodaj"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
@@ -18,7 +19,8 @@
         android:id="@+id/button8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="68dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginBottom="56dp"
         android:text="Usuń"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -53,4 +55,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="708dp"
+        android:text="Wróć"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
