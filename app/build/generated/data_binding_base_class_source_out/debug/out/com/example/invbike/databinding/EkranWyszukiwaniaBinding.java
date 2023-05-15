@@ -6,7 +6,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
-import android.widget.SearchView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -36,19 +35,15 @@ public final class EkranWyszukiwaniaBinding implements ViewBinding {
   @NonNull
   public final ImageView imageView;
 
-  @NonNull
-  public final SearchView searchView;
-
   private EkranWyszukiwaniaBinding(@NonNull ConstraintLayout rootView, @NonNull Button button3,
       @NonNull Button button5, @NonNull Button button6, @NonNull Button buttonLook,
-      @NonNull ImageView imageView, @NonNull SearchView searchView) {
+      @NonNull ImageView imageView) {
     this.rootView = rootView;
     this.button3 = button3;
     this.button5 = button5;
     this.button6 = button6;
     this.buttonLook = buttonLook;
     this.imageView = imageView;
-    this.searchView = searchView;
   }
 
   @Override
@@ -108,14 +103,8 @@ public final class EkranWyszukiwaniaBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.searchView;
-      SearchView searchView = ViewBindings.findChildViewById(rootView, id);
-      if (searchView == null) {
-        break missingId;
-      }
-
       return new EkranWyszukiwaniaBinding((ConstraintLayout) rootView, button3, button5, button6,
-          buttonLook, imageView, searchView);
+          buttonLook, imageView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
