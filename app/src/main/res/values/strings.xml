@@ -21,8 +21,8 @@
     <string name="Usun">Delete!</string>
     <string name="Dodaj">Add</string>
 
-    <string name="Facet">BoddyTypeA</string>
-    <string name="Kobieta">BoddyTypeB</string>
+    <string name="Facet">BodyTypeA</string>
+    <string name="Kobieta">BodyTypeB</string>
     <string name="DługoscA">DługośćA</string>
     <string name="DługoscB">DługośćB</string>
     <string name="DługoscC">DługośćC</string>
