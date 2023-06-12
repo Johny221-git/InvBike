@@ -1,4 +1,4 @@
-package com.example.invbikev1
+package com.example.invbikev1.`fun`
 
 import android.content.Intent
 import android.os.Bundle
@@ -7,6 +7,9 @@ import android.widget.EditText
 import android.widget.RadioButton
 import android.widget.TextView
 import androidx.activity.ComponentActivity
+import com.example.invbikev1.Itemy.Wyszukiwania
+import com.example.invbikev1.R
+import com.example.invbikev1.ekranStarotwy.MainActivity
 
 class Kalkulator : ComponentActivity() {
 
@@ -15,11 +18,20 @@ class Kalkulator : ComponentActivity() {
         setContentView(R.layout.ekran_kalkulator)
     }
 
-    fun ButtonOut(view: View?){
-        var PrzejscieOUT = Intent(
+    fun ButtonOut(view: View?) {
+        // Tworzenie nowego zamiaru (Intent) w celu przejścia do MainActivity
+        val przejscieOUT = Intent(
             this,
             MainActivity::class.java)
-        startActivity(PrzejscieOUT)
+        // Uruchamianie aktywności z użyciem utworzonego zamiaru
+        startActivity(przejscieOUT)
+    }
+
+    fun ButtonBack(view: View?){
+        var PrzejscieBack = Intent(
+            this,
+            Wyszukiwania::class.java)
+        startActivity(PrzejscieBack)
     }
 
     fun ButtonLicz(view: View?): Int {
@@ -32,6 +44,7 @@ class Kalkulator : ComponentActivity() {
         var radioWom = findViewById<RadioButton>(R.id.radioButton2)
         var suma = 0
 
+        // Sprawdzenie, który RadioButton został zaznaczony
         if(radioMen.isChecked) {
             mod = 18
         }
@@ -59,23 +72,24 @@ class Kalkulator : ComponentActivity() {
             intwC = wC.toInt()
         }
 
+        // Obliczenie wartości sizeA, sizeB i sizeC na podstawie wprowadzonych danych
+        var sizeA = mod + (intwA - 64) / 4 //ogolna
+        var sizeB = intwB / sizeA //nogi
+        var sizeC = intwC / sizeA //tolw
 
-        var sizeA = mod + (intwA - 64)/4 //ogolna
-        var sizeB = intwB/sizeA //nogi
-        var sizeC = intwC/sizeA //tolw
-
-
+        // Sprawdzenie warunków dotyczących sizeB i sizeC oraz ustawienie wartości dla zmiennej suma
         if(sizeB < 0.55 || sizeC < 0.48){
             suma = sizeA - 2
             pisz.setText("${suma}")
-        } else (if (sizeB > 0.59 || sizeC > 0.52) {
-                suma = sizeA + 2
-                pisz.setText("${suma}")
-            } else {
-                suma = sizeA
-                pisz.setText("${suma}")
-            })
+        } else if (sizeB > 0.59 || sizeC > 0.52) {
+            suma = sizeA + 2
+            pisz.setText("${suma}")
+        } else {
+            suma = sizeA
+            pisz.setText("${suma}")
+        }
 
         return suma
     }
+
 }

@@ -3,14 +3,14 @@
     <string name="title_activity_ekran_wyszukiwania">EkranWyszukiwania</string>
     
     <string name="Logo">InvBike</string>
-    <string name="Name">Name</string>
+    <string name="Name">Email</string>
     <string name="Haslo">Password</string>
     <string name="ButtonPomoc">Help!</string>
     <string name="ButtonPrzejscieMAEW">Login!</string>
     
     <string name="Wyloguj">Logout!</string>
     <string name="Szukaj">Shear</string>
-    <string name="ButtonSzukaj">Lupa</string>
+    <string name="ButtonSzukaj">Szukaj</string>
     <string name="ButtonFiltry">Filtr</string>
     <string name="ButtonKalkulator">Rama</string>
     <string name="ButtonZlecenia">Task</string>
@@ -29,6 +29,7 @@
     <string name="ButtonDługosc">Długość</string>
     <string name="Rozmiar">Rozmiar ramy</string>
     <string name="Wroc">Back</string>
+    <string name="title_activity_logowanie">Logowanie</string>
 
 
 
