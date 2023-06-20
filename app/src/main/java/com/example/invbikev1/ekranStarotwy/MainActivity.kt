@@ -47,7 +47,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun Przejscie() {
-        var PrzejscieMAEW = Intent(
+        val PrzejscieMAEW = Intent(
             this,
             Wyszukiwania::class.java)
         startActivity(PrzejscieMAEW)

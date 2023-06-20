@@ -13,3 +13,13 @@
 .externalNativeBuild
 .cxx
 local.properties
+hs_err_pid14376.log
+hs_err_pid16140.log
+hs_err_pid19360.log
+hs_err_pid19428.log
+hs_err_pid20160.log
+hs_err_pid20504.log
+hs_err_pid20508.log
+hs_err_pid24552.log
+hs_err_pid3956.log
+*.log

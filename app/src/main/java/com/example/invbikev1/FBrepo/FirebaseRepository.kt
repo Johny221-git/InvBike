@@ -1,19 +1,23 @@
 package com.example.invbikev1.FBrepo
 
 import android.util.Log
+import android.view.LayoutInflater
+import android.view.ViewGroup
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
+import androidx.recyclerview.widget.RecyclerView
+import androidx.recyclerview.widget.RecyclerView.ViewHolder
 import com.example.invbikev1.Itemy.Produkty
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.FieldValue
 import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.storage.FirebaseStorage
+import kotlinx.coroutines.NonDisposableHandle.parent
+import kotlinx.coroutines.newCoroutineContext
 
 class FirebaseRepository {
 
     private val REPO_DEBUG = "REPO_DEBUG" //znacznik debugu
-
-
     private val auth = FirebaseAuth.getInstance()// inicjalizacja firebase czesci do autoryzacji konta
     private val cloud = FirebaseFirestore.getInstance() // inicjalizacja firebasestore pod robienie zleceń i przedmiotów
 
@@ -24,14 +28,15 @@ class FirebaseRepository {
             .get() // Wywołanie metody get() w celu pobrania danych z kolekcji
             .addOnSuccessListener { dokument ->
                 if (dokument != null) {
-                    for (d in dokument) {
-                        Log.d("cokowiek", d.data.toString()) // Wyświetlanie danych dokumentu w logach debugowania
-                    }
-                }
-                // Konwertowanie dokumentów na listę obiektów typu Produkty
 
-                //val user = it.toObjects(Produkty::class.java)
-                //cloudResult.postValue(user) // Przypisanie przekonwertowanej listy do cloudResult
+                    val lista = mutableListOf<Produkty>()
+
+                    for (d in dokument) {
+                        val dok = d.toObject(Produkty::class.java)
+                        lista.add(dok)
+                    }
+                    cloudResult.postValue(lista)
+                }
             }
             .addOnFailureListener {
                 Log.d(REPO_DEBUG, it.message.toString()) // Wyświetlanie komunikatu o błędzie w logach debugowania w przypadku niepowodzenia pobrania danych
@@ -39,7 +44,7 @@ class FirebaseRepository {
         return cloudResult // Zwracanie MutableLiveData jako wynik metody
     }
 
-    fun getFavCars(list: List<String>?): LiveData<List<Produkty>> {
+    fun getFavProdukty(list: List<String>?): LiveData<List<Produkty>> {
         val cloudResult = MutableLiveData<List<Produkty>>()
 
         // Sprawdzenie, czy lista nie jest pusta ani nullowa

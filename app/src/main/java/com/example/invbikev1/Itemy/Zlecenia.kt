@@ -9,27 +9,24 @@ import com.example.invbikev1.ekranStarotwy.MainActivity
 
 class Zlecenia : ComponentActivity() {
 
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.ekran_zelcenia)
     }
 
-
     fun ButtonOut(view: View?){
-        var PrzejscieOUT = Intent(
+        val PrzejscieOUT = Intent(
             this,
             MainActivity::class.java)
         startActivity(PrzejscieOUT)
     }
 
     fun ButtonBack(view: View?){
-        var PrzejscieBack = Intent(
+        val PrzejscieBack = Intent(
             this,
             Wyszukiwania::class.java)
         startActivity(PrzejscieBack)
     }
-
 
     private val zleceniaList = ArrayList<Produkty>()
 
@@ -39,8 +36,5 @@ class Zlecenia : ComponentActivity() {
         zleceniaList.addAll(list) // Dodaje nową listę produktów do zleceniaList
         //notifyDataSetChanged() // Aktualizuje widok RecyclerView TO DO ZROBIĆ MIEJSCE DO WYSWIETLANIA!!!!
     }
-
-
-
 }
 

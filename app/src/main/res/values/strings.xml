@@ -31,9 +31,15 @@
     <string name="Wroc">Back</string>
     <string name="title_activity_logowanie">Logowanie</string>
 
-
-
-
-
+    <string name="Ilosc">Ilosc</string>
+    <string name="I">2</string>
+    <string name="Opis">Opis</string>
+    <string name="O">O</string>
+    <string name="Typ">Typ</string>
+    <string name="T">T</string>
+    <string name="Typroweru">Roweru</string>
+    <string name="R">R</string>
+    <string name="Nazwa">Nazwa</string>
+    <string name="N">N</string>
 
 </resources>
