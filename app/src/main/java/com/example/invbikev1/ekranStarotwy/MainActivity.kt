@@ -2,6 +2,8 @@ package com.example.invbikev1.ekranStarotwy
 
 import android.content.Intent
 import android.os.Bundle
+import android.os.Parcel
+import android.os.Parcelable
 import android.util.Log
 import android.view.View
 import android.widget.EditText
@@ -13,11 +15,14 @@ import com.example.invbikev1.Itemy.Wyszukiwania
 import com.google.firebase.auth.FirebaseAuth
 
 
-class MainActivity : AppCompatActivity() {
+class MainActivity() : AppCompatActivity(), Parcelable {
 
 
     private val fbAuth = FirebaseAuth.getInstance() //inicjalizacja autoryzacji kont firebase
     private val LOG_DEUBG = "LOG_DEBUG" //znacznik debugu
+
+    constructor(parcel: Parcel) : this() {
+    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -67,6 +72,23 @@ class MainActivity : AppCompatActivity() {
 
 }
 
+    override fun writeToParcel(parcel: Parcel, flags: Int) {
+
+    }
+
+    override fun describeContents(): Int {
+        return 0
+    }
+
+    companion object CREATOR : Parcelable.Creator<MainActivity> {
+        override fun createFromParcel(parcel: Parcel): MainActivity {
+            return MainActivity(parcel)
+        }
+
+        override fun newArray(size: Int): Array<MainActivity?> {
+            return arrayOfNulls(size)
+        }
+    }
 
 }
 

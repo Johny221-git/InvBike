@@ -1,10 +1,5 @@
 package com.example.invbikev1.`fun`
 
-import android.widget.EditText
-import android.widget.RadioButton
-import android.widget.TextView
-import com.example.invbikev1.R
-
 class matematyka {
 
     fun liczenie(intwA:Int, intwB:Int, intwC:Int,plec:String): Int {

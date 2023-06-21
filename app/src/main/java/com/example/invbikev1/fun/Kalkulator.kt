@@ -28,7 +28,7 @@ class Kalkulator : ComponentActivity() {
     }
 
     fun ButtonBack(view: View?){
-        var PrzejscieBack = Intent(
+        val PrzejscieBack = Intent(
             this,
             Wyszukiwania::class.java)
         startActivity(PrzejscieBack)
@@ -51,5 +51,4 @@ class Kalkulator : ComponentActivity() {
         val suma = matematyka().liczenie(wartoscA,wartoscB,wartoscC,plec)
         pisz.setText(suma.toString())
     }
-
 }

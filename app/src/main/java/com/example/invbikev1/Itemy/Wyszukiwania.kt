@@ -7,6 +7,7 @@ import android.view.View
 import android.widget.AdapterView
 import android.widget.ArrayAdapter
 import android.widget.Spinner
+import android.widget.TextView
 import android.widget.Toast
 import androidx.activity.ComponentActivity
 import com.example.invbikev1.FBrepo.FirebaseRepository
@@ -16,34 +17,20 @@ import com.example.invbikev1.ekranStarotwy.MainActivity
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class Wyszukiwania : ComponentActivity() {
-
+    var procds: List<Produkty> = emptyList()
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.ekran_wyszukiwania)
 
         FirebaseRepository().getProdukty().observe(this) { produkty ->
             val spinner = findViewById<Spinner>(R.id.Spinner1)
+            procds = produkty
             if (spinner != null) {
                 val adapter = ArrayAdapter(
                     this,
                     android.R.layout.simple_spinner_item, produkty
                 )
                 spinner.adapter = adapter
-
-                spinner.onItemSelectedListener = object :
-                    AdapterView.OnItemSelectedListener {
-                    override fun onItemSelected(
-                        parent: AdapterView<*>,
-                        view: View, position: Int, id: Long
-                    ) {
-                      
-                    }
-
-                    override fun onNothingSelected(parent: AdapterView<*>) {
-                        // write code to perform some action
-
-                    }
-                }
             }
         }
     }
@@ -70,6 +57,19 @@ class Wyszukiwania : ComponentActivity() {
             MainActivity::class.java
         )
         startActivity(PrzejscieOUT)
+    }
+
+    fun ButtonSz(view: View?) {
+        val szukaj = findViewById<TextView>(R.id.editTextText2).text.toString()
+        for (i in procds.indices){
+            if (procds[i].id?.contains(szukaj) == true)
+            {
+                val spinner = findViewById<Spinner>(R.id.Spinner1)
+                spinner.setSelection(i)
+                break
+            }
+        }
+
     }
 
 }
